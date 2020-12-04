@@ -1,0 +1,15 @@
+﻿<Window x:Class="Client.ClientForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client"
+        mc:Ignorable="d"
+        Title="ClientForm" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="SubmitButton" Content="Button" HorizontalAlignment="Left" Height="29" Margin="689,395,0,0" VerticalAlignment="Top" Width="101" Click="SubmitButton_Click"/>
+        <TextBox x:Name="MessageWindow" HorizontalAlignment="Center" Height="380" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="780" Margin="0,10,0,0"/>
+        <TextBox x:Name="InputWindow" HorizontalAlignment="Left" Height="29" Margin="10,395,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="674"/>
+
+    </Grid>
+</Window>
