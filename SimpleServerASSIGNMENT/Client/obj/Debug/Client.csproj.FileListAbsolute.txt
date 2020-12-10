@@ -1,0 +1,12 @@
+C:\Users\Lorcan\source\repos\Simple-Server-Assignment-Repo\SimpleServerASSIGNMENT\Client\obj\Debug\Client.csprojAssemblyReference.cache
+C:\Users\Lorcan\source\repos\Simple-Server-Assignment-Repo\SimpleServerASSIGNMENT\Client\obj\Debug\ClientForm.g.cs
+C:\Users\Lorcan\source\repos\Simple-Server-Assignment-Repo\SimpleServerASSIGNMENT\Client\obj\Debug\Client_MarkupCompile.cache
+C:\Users\Lorcan\source\repos\Simple-Server-Assignment-Repo\SimpleServerASSIGNMENT\Client\obj\Debug\Client_MarkupCompile.lref
+C:\Users\Lorcan\source\repos\Simple-Server-Assignment-Repo\SimpleServerASSIGNMENT\Client\bin\Debug\Client.exe.config
+C:\Users\Lorcan\source\repos\Simple-Server-Assignment-Repo\SimpleServerASSIGNMENT\Client\bin\Debug\Client.exe
+C:\Users\Lorcan\source\repos\Simple-Server-Assignment-Repo\SimpleServerASSIGNMENT\Client\bin\Debug\Client.pdb
+C:\Users\Lorcan\source\repos\Simple-Server-Assignment-Repo\SimpleServerASSIGNMENT\Client\obj\Debug\ClientForm.baml
+C:\Users\Lorcan\source\repos\Simple-Server-Assignment-Repo\SimpleServerASSIGNMENT\Client\obj\Debug\Client.g.resources
+C:\Users\Lorcan\source\repos\Simple-Server-Assignment-Repo\SimpleServerASSIGNMENT\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\Lorcan\source\repos\Simple-Server-Assignment-Repo\SimpleServerASSIGNMENT\Client\obj\Debug\Client.exe
+C:\Users\Lorcan\source\repos\Simple-Server-Assignment-Repo\SimpleServerASSIGNMENT\Client\obj\Debug\Client.pdb

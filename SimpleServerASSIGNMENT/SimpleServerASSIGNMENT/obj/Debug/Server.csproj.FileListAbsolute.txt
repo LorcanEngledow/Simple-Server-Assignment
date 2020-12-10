@@ -1,2 +1,7 @@
 C:\Users\Lorcan\source\repos\Simple-Server-Assignment-Repo\SimpleServerASSIGNMENT\SimpleServerASSIGNMENT\obj\Debug\Server.csprojAssemblyReference.cache
 C:\Users\Lorcan\source\repos\Simple-Server-Assignment-Repo\SimpleServerASSIGNMENT\SimpleServerASSIGNMENT\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\Lorcan\source\repos\Simple-Server-Assignment-Repo\SimpleServerASSIGNMENT\SimpleServerASSIGNMENT\bin\Debug\SimpleServerASSIGNMENT.exe.config
+C:\Users\Lorcan\source\repos\Simple-Server-Assignment-Repo\SimpleServerASSIGNMENT\SimpleServerASSIGNMENT\bin\Debug\SimpleServerASSIGNMENT.exe
+C:\Users\Lorcan\source\repos\Simple-Server-Assignment-Repo\SimpleServerASSIGNMENT\SimpleServerASSIGNMENT\bin\Debug\SimpleServerASSIGNMENT.pdb
+C:\Users\Lorcan\source\repos\Simple-Server-Assignment-Repo\SimpleServerASSIGNMENT\SimpleServerASSIGNMENT\obj\Debug\SimpleServerASSIGNMENT.exe
+C:\Users\Lorcan\source\repos\Simple-Server-Assignment-Repo\SimpleServerASSIGNMENT\SimpleServerASSIGNMENT\obj\Debug\SimpleServerASSIGNMENT.pdb

@@ -21,9 +21,8 @@ namespace Client
 
         public ClientForm(Client pClient)
         {
-            InitializeComponent();
-
             client = pClient;
+            InitializeComponent();
         }
 
         public void UpdateChatWindow(string message)
@@ -37,7 +36,6 @@ namespace Client
 
         private void SubmitButton_Click(object sender, RoutedEventArgs e)
         {
-            client.SendMessage();
         }
     }
 }

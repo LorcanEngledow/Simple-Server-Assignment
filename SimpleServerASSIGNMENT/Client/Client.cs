@@ -7,7 +7,7 @@ using System.IO;
 
 namespace Client
 {
-    class Client
+    public class Client
     {
         private TcpClient tcpClient;
         private NetworkStream stream;
@@ -46,7 +46,7 @@ namespace Client
             string userInput;
             ProcessServerResponse();
 
-            clientForm = new ClientForm();
+            clientForm = new ClientForm(this);
 
             while ((userInput = Console.ReadLine()) != null)
             {
