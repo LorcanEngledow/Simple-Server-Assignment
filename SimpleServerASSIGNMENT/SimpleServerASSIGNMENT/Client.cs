@@ -40,7 +40,9 @@ namespace Server
         public string Read()
         {
             lock (m_ReadLock)
+            {
                 return (m_Reader.ReadLine());
+            }
         }
 
         public void Write(string message)

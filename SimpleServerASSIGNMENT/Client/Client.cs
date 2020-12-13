@@ -4,16 +4,21 @@ using System.Text;
 using System.Net.Sockets;
 using System.Net;
 using System.IO;
+using System.Threading;
+
 
 namespace Client
 {
+
     public class Client
     {
         private TcpClient tcpClient;
         private NetworkStream stream;
         private StreamReader reader;
         private StreamWriter writer;
+
         private ClientForm clientForm;
+        
 
         public Client()
         {
@@ -40,37 +45,31 @@ namespace Client
                 return (false);
             }
         }
-
+        [STAThread]
         public void Run()
         {
-            string userInput;
-            ProcessServerResponse();
-
+            Client client = new Client();
             clientForm = new ClientForm(this);
 
-            while ((userInput = Console.ReadLine()) != null)
-            {
-                writer.WriteLine(userInput);
-                writer.Flush();
+            Thread thread = new Thread(() => { ProcessServerResponse(); });
+            thread.Start();
 
-                ProcessServerResponse();
-
-                if (userInput == "End")
-                    break;
-            }
-
+            clientForm.ShowDialog();
             tcpClient.Close();
         }
 
         private void ProcessServerResponse()
         {
-            writer.WriteLine("Server response: " + reader.ReadLine());
-            writer.WriteLine();
+            while (reader != null)
+            {
+                clientForm.UpdateChatWindow(reader.ReadLine());
+            }
         }
 
         public void SendMessage(string message)
         {
-
+            writer.WriteLine(message);
+            writer.Flush();
         }
     }
 }

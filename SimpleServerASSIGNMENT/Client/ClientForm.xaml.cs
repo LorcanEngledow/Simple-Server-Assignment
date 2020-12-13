@@ -10,6 +10,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+
 namespace Client
 {
     /// <summary>
@@ -17,14 +18,17 @@ namespace Client
     /// </summary>
     public partial class ClientForm : Window
     {
-        Client client;
+        
+        private Client m_client;
 
-        public ClientForm(Client pClient)
+
+        public ClientForm(Client Client)
         {
-            client = pClient;
+            m_client = Client;
             InitializeComponent();
         }
 
+        
         public void UpdateChatWindow(string message)
         {
             MessageWindow.Dispatcher.Invoke(() =>
@@ -36,6 +40,8 @@ namespace Client
 
         private void SubmitButton_Click(object sender, RoutedEventArgs e)
         {
+            m_client.SendMessage(InputWindow.Text);
+            InputWindow.Text = "";
         }
     }
 }

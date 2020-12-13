@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="ClientForm" Height="450" Width="800">
     <Grid>
-        <Button x:Name="SubmitButton" Content="Button" HorizontalAlignment="Left" Height="29" Margin="681,380,0,0" VerticalAlignment="Top" Width="101" Click="SubmitButton_Click"/>
-        <TextBox x:Name="MessageWindow" HorizontalAlignment="Center" Height="365" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="772" Margin="10,10,10,0"/>
-        <TextBox x:Name="InputWindow" HorizontalAlignment="Left" Height="29" Margin="10,380,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="666"/>
+        <Button x:Name="SubmitButton" Content="Send" HorizontalAlignment="Left" Height="29" Margin="669,371,0,0" VerticalAlignment="Top" Width="103" Click="SubmitButton_Click"/>
+        <TextBox x:Name="MessageWindow" Height="356" TextWrapping="Wrap" VerticalAlignment="Top" Margin="20,10,0,0" HorizontalAlignment="Left" Width="752"/>
+        <TextBox x:Name="InputWindow" HorizontalAlignment="Left" Height="29" Margin="20,371,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="644"/>
 
     </Grid>
 </Window>
